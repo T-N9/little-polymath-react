@@ -1,0 +1,32 @@
+body{
+  width: 100%;
+  height: 100vh;
+}
+#root{
+  width: 100%;
+  height: 100%;
+}
+.modal-box{
+  position: absolute;
+  z-index: 3000px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #00000050;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right-answer{
+  border:3px solid greenyellow;
+}
+.wrong-answer{
+  border:3px solid red ;
+}
+.modal-content{
+  background-color: aquamarine;
+  padding:10px;
+  border-radius: 10px;
+  width: 90%;
+}
